@@ -1,0 +1,34 @@
+/* <!-- Trabajá con fondos y medidas absolutas y relativas para:
+A) Añadir al div con id “fondo” un color de fondo semitransparente. Definir
+además un ancho de 300px, una altura de 200px, y un borde de 3px sólido de
+color negro.
+B) Fijar el ancho y el tamaño de la fuente en la caja con clase “medidaabsoluta”, utilizando medidas absolutas.
+C) Definir el ancho y el tamaño de la fuente en la caja con clase “medidarelativa”, utilizando medidas relativas.
+D) Dar a cada caja un borde distinto que combine grosores, colores y estilos. --> */
+
+#fondo{
+    background-color: rgba(95, 233, 122, 0.5);
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+.medida-absoluta{
+    width: 100px;
+    height: 50px;
+    border: 5px solid blueviolet;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+.medida-relativa{
+    width: 5.5em;
+    height: 4em;
+    border: 0.2em solid orange;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-style: normal;
+    border-radius: 1.4em;
+    padding: 0.2em;
+}
